@@ -16,7 +16,8 @@ const client = new Client({
 // Used for separating events into separate different files 
 new CommandHandler({
     client,
-    eventsPath: path.join(__dirname, 'events')
+    eventsPath: path.join(__dirname, 'events'),
+    commandsPath: path.join(__dirname, 'commands')
 })
 
 

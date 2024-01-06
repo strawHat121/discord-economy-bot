@@ -6,3 +6,4 @@ Learning how to make discord bot.
 
 - On ready event
 - On Message event
+- Added a basic ping command
